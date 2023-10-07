@@ -85,4 +85,6 @@ if hour_finish > 24:
 else:
     print("The party has over at ", hour_finish, ":", mins_traveled, sep="")
     
-
+#key takeaways input review
+name = input("Enter your name: ")
+print("Hello, " + name + ". Nice to meet you!")
