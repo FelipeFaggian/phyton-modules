@@ -24,7 +24,7 @@ print("Hypotenuse length is", hypo)
 
 leg_a = float(input("Input first leg length: "))
 leg_b = float(input("Input second leg length: "))
-print("Hypotenuse length is", (leg_a**2 + leg_b**2) ** .5
+print("Hypotenuse length is", (leg_a**2 + leg_b**2) ** .5)
 
 #string + string
 fnam = input("May I have your first name, please? ")
@@ -107,5 +107,5 @@ print(my_input * 3) # Expected output: hellohellohello
 
 # test input tyoe
 x = input("Enter a number: ") # The user enters 2
-print(type(x)
+print(type(x))
 # output: <class 'str'> (In first moment, an input will always return a string)
